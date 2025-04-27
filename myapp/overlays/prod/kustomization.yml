@@ -1,5 +1,4 @@
 resources:
-  - ../../base
-
+- myapp/base
 patchesStrategicMerge:
-  - patch.yaml
+- patch.yaml
