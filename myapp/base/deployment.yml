@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-app
-  namespace: prod
 spec:
   replicas: 1
   selector:
@@ -14,7 +13,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: my-app
+      - name: nginx
         image: nginx
         ports:
         - containerPort: 80
