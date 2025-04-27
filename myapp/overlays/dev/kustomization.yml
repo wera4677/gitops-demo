@@ -1,6 +1,6 @@
 resources:
-- ../../base
-- namespace.yaml
+  - ../../base
+  - namespace.yaml
 
 patches:
-- path: patch.yaml
+  - path: patch.yaml
